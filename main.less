@@ -1,0 +1,37 @@
+@grass:#006699;
+h1{
+  color:@grass;
+}
+
+p{
+  color:@grass;
+}
+
+.panel{
+  border:3px solid dodgerblue;
+  background-color: bisque;
+  margin: 10px;
+}
+
+.little-panel{
+  .panel;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.big-panel{
+  .panel;
+  font-size: 24px;
+  padding: 20px;
+}
+
+#welcome-banner{
+  font-size: 32px;
+  background: lightcoral;
+  @media screen {
+    @media (max-width: 768px) {
+      font-size: 18px;
+      background: lightgrey;
+    }
+  }
+}

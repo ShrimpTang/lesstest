@@ -1,0 +1,35 @@
+h1 {
+  color: #006699;
+}
+p {
+  color: #006699;
+}
+.panel {
+  border: 3px solid dodgerblue;
+  background-color: bisque;
+  margin: 10px;
+}
+.little-panel {
+  border: 3px solid dodgerblue;
+  background-color: bisque;
+  margin: 10px;
+  font-size: 12px;
+  padding: 5px;
+}
+.big-panel {
+  border: 3px solid dodgerblue;
+  background-color: bisque;
+  margin: 10px;
+  font-size: 24px;
+  padding: 20px;
+}
+#welcome-banner {
+  font-size: 32px;
+  background: lightcoral;
+}
+@media screen and (max-width: 768px) {
+  #welcome-banner {
+    font-size: 18px;
+    background: lightgrey;
+  }
+}
