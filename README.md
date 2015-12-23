@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=YQYJUeokqOY&list=PL6gx4Cwl9DGCshbAx1JpBtNoKh8iKAAiy
 
-`` html
+``` html
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 <head>
@@ -38,4 +38,4 @@ https://www.youtube.com/watch?v=YQYJUeokqOY&list=PL6gx4Cwl9DGCshbAx1JpBtNoKh8iKA
 </script>
 </body>
 </html>
-``
+```
